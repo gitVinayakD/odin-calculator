@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+
+}
+
+#calculator{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    background-color: rgb(34, 146, 180);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.result, .bigButtons, .row{
+    flex: 1;
+}
+
+.result{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    border-style: solid;
+    text-align: right;
+    margin: 4px;
+    background-color: white;
+    gap: 2px;
+    padding: 4px;
+}
+
+.midCalcText{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.resultsText{
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.littleButton{
+    border-style: solid;
+    flex: 1;
+    text-align: center;
+    margin: 4px;
+    background-color: white;
+}
+
+.bigButtons{
+    display: flex;
+    
+}
+
+.buttonBig{
+    flex: 1;
+    text-align: center;
+    border-style: solid;
+    margin: 4px;
+    background-color: white;
+}
+
+.row{
+    display: flex;
+}

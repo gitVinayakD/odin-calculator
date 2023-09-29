@@ -4,40 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
     <title>Calculator</title>
 </head>
 <body>
     <div id="calculator">
-        <div class="window"></div>
+        <div class="result">
+            <div class="midCalcText"> </div>
+            <div class="resultsText">0</div>
+        </div>
         <div class="bigButtons">
-            <div class="buttonBig">CLEAR</div>
-            <div class="buttonBig">DELETE</div>
+            <div class="buttonBig clear">CLEAR</div>
+            <div class="buttonBig delete">DELETE</div>
         </div>
-        <div id="row">
-            <div class="littleButton">7</div>
-            <div class="littleButton">8</div>
-            <div class="littleButton">9</div>
-            <div class="littleButton">÷</div>
+        <div class="row">
+            <div class="littleButton number">7</div>
+            <div class="littleButton number">8</div>
+            <div class="littleButton number">9</div>
+            <div class="littleButton operator">÷</div>
         </div>
-        <div id="row">
-            <div class="littleButton">4</div>
-            <div class="littleButton">5</div>
-            <div class="littleButton">6</div>
-            <div class="littleButton">x</div>
+        <div class="row">
+            <div class="littleButton number">4</div>
+            <div class="littleButton number">5</div>
+            <div class="littleButton number">6</div>
+            <div class="littleButton operator">x</div>
         </div>
-        <div id="row">
-            <div class="littleButton">1</div>
-            <div class="littleButton">2</div>
-            <div class="littleButton">3</div>
-            <div class="littleButton">-</div>
+        <div class="row">
+            <div class="littleButton number">1</div>
+            <div class="littleButton number">2</div>
+            <div class="littleButton number">3</div>
+            <div class="littleButton operator">-</div>
         </div>
-        <div id="row">
-            <div class="littleButton">.</div>
-            <div class="littleButton">0</div>
-            <div class="littleButton">=</div>
-            <div class="littleButton">+</div>
+        <div class="row">
+            <div class="littleButton decimal">.</div>
+            <div class="littleButton number">0</div>
+            <div class="littleButton equals">=</div>
+            <div class="littleButton operator">+</div>
         </div>
     </div>
-    <div id="result"></div>
 </body>
 </html>
